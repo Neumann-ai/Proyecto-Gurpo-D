@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Grupo D</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet"> 
+     <script src="https://kit.fontawesome.com/289fb0f140.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="styles-nav-footer.css">
+     <link rel="stylesheet" href="styles-landingPage.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+            <div class="container-fluid fixed-top " style="background-color: #ffcdb2a1;">
+                <a class="navbar-brand" href="" style=" height: 35px !important; margin: 0px !important; padding: 0px!important; font-family: 'Montserrat', sans-serif; font-weight: 800;">Grupo D</a>
+                <div id="hideOnMobile" class="row justify-content-end">
+                    <div class="col-1 col-sm-1 col-md-1">
+                       <button class="botonMenu" type="button" onclick="nuevaFuncion('container1')" style="height: 35px;">
+                        Inicio
+                       </button>
+                    </div>
+                    <div class="col-4 text-end" >
+                     <div class="dropdown" >
+                        <button class="botonMenu dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="height: 35px;  ">
+                            Nuesto Equipo
+                        </button>
+                        <ul class="dropdown-menu hover-dark" aria-labelledby="dropdownMenuButton1" style="background-color: #FFB4A2;">
+                            <li><a class="dropdown-item" href="CV/cv-flor.html" onclick="nuevaFuncion('container2')">Florencia</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="nuevaFuncion('container3')">Miembro2</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="nuevaFuncion('container4')">Miembro3</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="nuevaFuncion('container5')">Miembro4</a></li>
+                          </ul>
+                        </div>
+                       </div>
+                      <div class="col-2 text-end">
+                        <button class="botonMenu" type="button" onclick="nuevaFuncion('container1')" style="margin: 0px; height: 35px;">
+                         Proyectos
+                        </button>
+                    </div>
+                    <div class="col-5 text-center">
+                        <button class="botonMenu" type="button" onclick="nuevaFuncion('container1')" style="padding-top: 0px; height: 35px;">
+                         Contacta con Nosotros
+                        </button>
+                    </div>
+                </div>
+                
+                <button id="hideOnDesktop" class="collapse-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" style="display: none; background-color: #ffcdb2a1; border-radius: 25px;">
+                    <span class="navbar-toggler-icon" ><img width="20px" height="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png" style="padding-bottom: 1px;" ></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')">
+                            Inicio
+                       </button>
+                      </li>
+                      <li class="nav-item">
+                     <div class="dropdown">
+                        <button class="botonMenuMobile dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nuesto Equipo
+                        </button>
+                        <ul class="dropdown-menu hover-dark" aria-labelledby="dropdownMenuButton1" style="background-color: #FFB4A2;">
+                            <li><a class="dropdown-item" href="#" onclick="nuevaFuncion('container2')">Miembro1</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="nuevaFuncion('container3')">Miembro2</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="nuevaFuncion('container4')">Miembro3</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="nuevaFuncion('container5')">Miembro4</a></li>
+                        </ul>
+                      </div>
+                      </li>
+                      <li class="nav-item">
+                        <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')">
+                            Proyectos
+                        </button>
+                      </li>
+                      <li class="nav-item">
+                        <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')">
+                            Contacta con Nosotros
+                        </button>
+                    </li>
+                    </ul>
+                </div>   
+            </div>    
+            </nav>
+        </header>
+        <main class="align-center" style="margin-top: 24px;">
+            <div class="container-fluid">
+                <main>
+                    <!---PRESENTACION---->
+                    <section class="presentacion row text-center justify-content-center my-5">
+                        <div class="col-12 col-md-4 text-center grupod">
+                            <h1 class="titulo-gradiente">GrupoD</h1>
+                            <p class="fs-5">Desarrollo integral del sitio o aplicacion movil para tu empresa, el primer paso para abirte camino en la web es comunicandote con <span class="fw-bold">Grupo D.</span>
+                            </p>
+                        </div>
+                        <div class="side-img col-md-8 pe-0">
+                            <img src="img/side.jpg" alt="">
+                        </div>
+                    </section>
+                    <!---CLIENTES---->
+                    <section class="lista-clientes row text-center justify-content-center pt-5 pb-4 mb-4 ">
+                        <div class="titulo col-12">
+                            <h3 class="fw-bold m-2">Algunos de nuestros clientes</h3>
+                        </div>
+                        <div class="logo-cliente col-12 col-sm-6 col-md-3">
+                            <img src="img/Logo-Amazone.png" class="" alt="Amazon" />
+                        </div>
+                        <div class="logo-cliente col-12 col-sm-6 col-md-3">
+                            <img src="img/Logo-ML.png" class="" alt="Mercado Libre" />
+                        </div>
+                        <div class="logo-cliente col-12 col-sm-6 col-md-3">
+                            <img src="img/Logo-Rolling.png" class="" alt="Rolling Code" />
+                        </div>
+                        <div class="logo-cliente col-12 col-sm-6 col-md-3">
+                            <img src="img/Logo-SW.png" class="" alt="SW MOTECH" />
+                        </div>
+                        <div class="row mt-3">
+                            <div class="logo-cliente col-12 col-sm-6 col-md-4 d-md-flex justify-content-end">
+                                <img src="img/logo-brembo.png" class="" alt="Brembo" />
+                            </div>
+                            <div class="logo-cliente col-12 col-sm-6 col-md-4">
+                                <img src="img/logo-prox.png" class="w-auto" alt="Pro-X Racing" />
+                            </div>
+                            <div class="logo-cliente col-12 col-sm-12 col-md-4 d-md-flex justify-content-start mt-3">
+                                <img src="img/Logo-polisport.png" class="w-auto" alt="Polisport" />
+                            </div>
+                        </div>
+                    </section>
+                    <!---LENGUAJES---->
+                    <section class="row lista-lenguajes  text-center justify-content-center my-5">
+                        <div class="titulo col-12">
+                            <h2 class="fw-bold">¿Que lenguajes manejamos?</h2>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2 d-flex d-sm-flex d-xxl-inline justify-content-end lenguaje">
+                            <div class="len-hover css3">
+                                <span><i class="fab fa-css3-alt"></i></span>
+                                <h3 class="fw-bold">CSS3</h3>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2 d-flex d-sm-flex d-xxl-inline  justify-content-start lenguaje">
+                            <div class="len-hover javas">
+                                <span><i class="fab fa-js-square"></i></span>
+                                <h3 class="fw-bold">JAVA SCRIPT</h3>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2 d-flex d-sm-flex d-xxl-inline  justify-content-end lenguaje">
+                            <div class="len-hover python">
+                                <span><i class="fab fa-python"></i></span>
+                                <h3 class="fw-bold">PYTHON</h3>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 col-lg-2 d-flex d-sm-flex d-xxl-inline  justify-content-start lenguaje">
+                            <div class="len-hover react">
+                                <span><i class="fab fa-react"></i></span>
+                                <h3 class="fw-bold">REACT</h3>
+                            </div>
+                        </div>
+                    </section>
+                    <!---SERVICIOS---->
+                    <div class="separador">
+                        <hr>
+                    </div>
+                    
+                    <section class=" row  d-flex justify-content-center lista-servicios">
+                        <div class="col-lg-12 col-xl-3 titulo">
+                            <h2 class="fw-bold text-center d-lg-block d-xl-flex flex-xl-column "><span>¿</span>Que servicios ofrecemos <span>?</span></h2>
+                      <!--       <div class="icono-servicio d-lg-none d-xl-flex justify-content-between">
+                                <i class="fas fa-file-code"></i>
+                                <i class="fas fa-object-group"></i>
+                                <i class="fas fa-cogs"></i>
+                                <i class="fas fa-eye"></i>
+                            </div> -->
+                        </div>
+                        <div class="col-xl-9 row text-center d-flex align-items-center">
+                            <div class="col-12 col-sm-6 col-xl-3 d-flex my-3 justify-content-center">
+                                <div class="servicio diseño">
+                                    <div class="ilustracion">
+                                        <img src="img/servicio-diseño.jpg" alt="">
+                                    </div>
+                                    <div class="info-servicio">
+                                        <!-- <i class="fas fa-object-group"></i> -->
+                                        <h3>Diseño</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-xl-3 d-flex my-3 justify-content-center">
+                                <div class="servicio desarrollo">
+                                    <div class="ilustracion">
+                                        <img src="img/servicio-desarrollo.jpg" alt="">
+                                    </div>
+                                    <div class="info-servicio">
+                                        <!-- <i class="fas fa-file-code"></i> -->
+                                        <h3>Desarrollo</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-xl-3 d-flex my-3 justify-content-center">
+                                <div class="servicio mantenimiento">
+                                    <div class="ilustracion">
+                                        <img src="img/servicio-mantenimiento.jpg" alt="">
+                                    </div>
+                                    <div class="info-servicio">
+                                        <!-- <i class="fas fa-cogs"></i> -->
+                                        <h3>Mantenimiento</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-xl-3 d-flex my-3 justify-content-center">
+                                <div class="servicio marketing">
+                                    <div class="ilustracion">
+                                        <img src="img/servicio-marketing.jpg" alt="">
+                                    </div>
+                                    <div class="info-servicio">
+                                        <!-- <i class="fas fa-eye"></i> -->
+                                        <h3>Marketing</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!---TEAM---->
+                    <section class="lista-team">
+                        <div class="miembro">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="miembro">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="miembro">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="miembro">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="miembro">
+                            <div class="card" style="width: 18rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </div>
+        </main>
+        <footer>
+            <div class="container-fluid" style="background-color: #FFB4A2; max-height: 30px; overflow-y: hidden;">
+             <div class="row">
+                 <div class="col text-center" style="padding: 2px;">
+                    <a href="#">© Grupo D 2021</a>
+                 </div>
+                 <div class="col-1 col-md-1  overflow-hidden col-lg-3" >
+                    <a href="https://api.whatsapp.com/send?phone=0123456789"><img width="30px" height="30px" src="https://img.icons8.com/pastel-glyph/64/000000/whatsapp--v2.png"/></a>
+                    <a id="footerLink" href="https://api.whatsapp.com/send?phone=0123456789">Envíanos un mensaje de WhatsApp</a>
+                 </div>
+                 <div class="col-1 col-md-1  overflow-hidden col-lg-3" >
+                    <a href="https://github.com/Neumann-ai"><img width="30px" height="30px" src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
+                    <a id="footerLink" href="https://github.com/Neumann-ai">Seguinos en GitHub</a>
+                 </div>
+                 <div class="col-1 col-md-1 overflow-hidden col-lg-3">
+                    <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=neumannbenjamin3@gmail.com&tf=1"><img width="30px" height="30px" src="https://img.icons8.com/ios-filled/50/000000/gmail.png"/></a>
+                    <a id="footerLink" href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=neumannbenjamin3@gmail.com&tf=1">GrupoD@gmail.com</a>
+                 </div>
+
+             </div>
+            </div>
+
+        </footer>
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    </body>
+
+</html>
