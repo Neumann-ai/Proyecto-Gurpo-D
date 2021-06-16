@@ -197,6 +197,45 @@ hr{
     padding: 1em;
     color: white;
 }
+/*=========== TRAYECTORIA ==========*/
+.wave{
+    background: url(img/wave.png);
+    background-size: cover;
+    background-blend-mode: color-burn;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+}
+
+.trayectoria .fas{
+    font-size: clamp(7em, 4vw, 10em);
+}
+
+
+.trayectoria p{
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.trayectoria p,
+.trayectoria i{
+ /*background-image: linear-gradient(45deg, var(--color-uno), var(--color-tres));
+  background-color: var(--uno);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;*/
+  color: #efefef;
+  text-shadow: 2px 2px 1px  var(--color-tres);
+}
+
+
+/*=========== TEAM ==========*/
+
+
+
+
+
 
 
 /*=========== QUERY ==========*/
@@ -219,11 +258,11 @@ hr{
 
 @media (min-width:  786px){
     .lenguaje:hover h3{
-   transform: translateY(-4em)
+   transform: translateY(-4em);
   }
 
   .lenguaje .len-hover:hover {
     box-shadow: 0px 20px 1em rgba(0, 0, 0, .2);
     transform: translateY(-5px);
-}
+    }
 }
