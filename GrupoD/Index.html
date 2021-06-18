@@ -9,20 +9,19 @@
      <link rel="stylesheet" href="styles-nav-footer.css">
      <link rel="stylesheet" href="styles-landingPage.css">
     </head>
-    <body>
-        <header>
+    <body>  <header>
             <nav class="navbar">
-            <div class="container-fluid fixed-top " style="background-color: #ffcdb2a1;">
+            <div class="container-fluid fixed-top shadow-lg" style="background-color: #ffcdb2a1;">
                 <a class="navbar-brand" href="" style=" height: 35px !important; margin: 0px !important; padding: 0px!important; font-family: 'Montserrat', sans-serif; font-weight: 800;">Grupo D</a>
                 <div id="hideOnMobile" class="row justify-content-end">
                     <div class="col-1 col-sm-1 col-md-1">
-                       <button class="botonMenu" type="button" onclick="nuevaFuncion('container1')" style="height: 35px;">
-                        <a href="Index.html">Inicio</a> 
+                       <button class="botonMenu" type="button" onclick="nuevaFuncion('container1')" style="height: 35px; font-family: 'Montserrat', sans-serif; font-weight: 800; text-decoration: none !important;">
+                        <a href="Index.html" style="text-decoration: none;">Inicio</a> 
                        </button>
                     </div>
                     <div class="col-4 text-end" >
                      <div class="dropdown" >
-                        <button class="botonMenu dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="height: 35px;  ">
+                        <button class="botonMenu dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="height: 35px; font-family: 'Montserrat', sans-serif; font-weight: 800; ">
                             Nuesto Equipo
                         </button>
                         <ul class="dropdown-menu hover-dark" aria-labelledby="dropdownMenuButton1" style="background-color: #FFB4A2;">
@@ -30,17 +29,18 @@
                             <li><a class="dropdown-item" href="CV/cv-katu.html" onclick="nuevaFuncion('container3')">Katu</a></li>
                             <li><a class="dropdown-item" href="#" onclick="nuevaFuncion('container4')">Miembro3</a></li>
                             <li><a class="dropdown-item" href="#" onclick="nuevaFuncion('container5')">Miembro4</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="nuevaFuncion('container5')">Miembro4</a></li>
                           </ul>
                         </div>
                        </div>
                       <div class="col-2 text-end">
-                        <button class="botonMenu" type="button" onclick="nuevaFuncion('container1')" style="margin: 0px; height: 35px;">
-                         Proyectos
+                        <button class="botonMenu" type="button" onclick="nuevaFuncion('container1')" style="margin: 0px; height: 35px; font-family: 'Montserrat', sans-serif; font-weight: 800; text-decoration: none;">
+                          <a href="#" style="text-decoration: none;"> Proyectos</a> 
                         </button>
                     </div>
                     <div class="col-5 text-center">
-                        <button class="botonMenu" type="button" onclick="nuevaFuncion('container1')" style="padding-top: 0px; height: 35px;">
-                         <a href="Contacto/contacto.html">Contactate con nosotros</a>
+                        <button class="botonMenu" type="button" onclick="nuevaFuncion('container1')" style="padding-top: 0px; height: 35px; font-family: 'Montserrat', sans-serif; font-weight: 800; text-decoration: none;">
+                         <a href="Contacto/contacto.html" style="text-decoration: none;">Contactate con nosotros</a>
                         </button>
                     </div>
                 </div>
@@ -51,13 +51,13 @@
                 <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')">
-                            Inicio
+                        <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')" style="font-family: 'Montserrat', sans-serif; font-weight: 800;">
+                            <a href="Index.html" style="text-decoration: none;">Inicio</a> 
                        </button>
                       </li>
                       <li class="nav-item">
                      <div class="dropdown">
-                        <button class="botonMenuMobile dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="botonMenuMobile dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="font-family: 'Montserrat', sans-serif; font-weight: 800;"> 
                             Nuesto Equipo
                         </button>
                         <ul class="dropdown-menu hover-dark" aria-labelledby="dropdownMenuButton1" style="background-color: #FFB4A2;">
@@ -69,13 +69,13 @@
                       </div>
                       </li>
                       <li class="nav-item">
-                        <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')">
-                            Proyectos
+                        <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')" style="font-family: 'Montserrat', sans-serif; font-weight: 800;">
+                           <a href="#" style="text-decoration: none;"> Proyectos</a> 
                         </button>
                       </li>
                       <li class="nav-item">
-                        <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')">
-                            Contacta con Nosotros
+                        <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')" style="font-family: 'Montserrat', sans-serif; font-weight: 800;">
+                            <a href="Contacto/contacto.html" style="text-decoration: none;">Contactate con nosotros</a>
                         </button>
                     </li>
                     </ul>
@@ -311,15 +311,15 @@
                  <div class="col text-center" style="padding: 2px;">
                     <a href="#">© Grupo D 2021</a>
                  </div>
-                 <div class="col-1 col-md-1  overflow-hidden col-lg-3" >
+                 <div class="col-2 col-md-1  overflow-hidden col-lg-3" >
                     <a href="https://api.whatsapp.com/send?phone=0123456789"><img width="30px" height="30px" src="https://img.icons8.com/pastel-glyph/64/000000/whatsapp--v2.png"/></a>
                     <a id="footerLink" href="https://api.whatsapp.com/send?phone=0123456789">Envíanos un mensaje de WhatsApp</a>
                  </div>
-                 <div class="col-1 col-md-1  overflow-hidden col-lg-3" >
+                 <div class="col-2 col-md-1  overflow-hidden col-lg-3" >
                     <a href="https://github.com/Neumann-ai"><img width="30px" height="30px" src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
                     <a id="footerLink" href="https://github.com/Neumann-ai">Seguinos en GitHub</a>
                  </div>
-                 <div class="col-1 col-md-1 overflow-hidden col-lg-3">
+                 <div class="col-2 col-md-1 overflow-hidden col-lg-3">
                     <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=neumannbenjamin3@gmail.com&tf=1"><img width="30px" height="30px" src="https://img.icons8.com/ios-filled/50/000000/gmail.png"/></a>
                     <a id="footerLink" href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=neumannbenjamin3@gmail.com&tf=1">GrupoD@gmail.com</a>
                  </div>
