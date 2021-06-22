@@ -35,6 +35,10 @@ main{
     margin: 50px auto;
 }
 
+.resume_profile img{
+    object-fit: cover;
+}
+
 .resume .resume_left {
     width: 280px;
     background: black;
