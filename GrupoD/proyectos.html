@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Grupo D</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/289fb0f140.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles-nav-footer.css">
+    <link rel="stylesheet" href="styles-landingPage.css">
+    <link rel="stylesheet" href="styles-proyectos.css">
+   </head>
+
+<body>
+  <header>
+    <nav class="navbar">
+    <div class="container-fluid fixed-top shadow-lg" style="background-color: #ffcdb2a1;">
+        <a class="navbar-brand" href="" style=" height: 35px !important; margin: 0px !important; padding: 0px!important; font-family: 'Montserrat', sans-serif; font-weight: 800;">Grupo D</a>
+        <div id="hideOnMobile" class="row justify-content-end">
+            <div class="col-1 col-sm-1 col-md-1">
+               <button class="botonMenu" type="button" style="height: 35px; font-family: 'Montserrat', sans-serif; font-weight: 800; text-decoration: none !important;">
+                <a href="Index.html" style="text-decoration: none;">Inicio</a> 
+               </button>
+            </div>
+            <div class="col-4 text-end">
+             <div class="dropdown">
+                <button class="botonMenu dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="height: 35px; font-family: 'Montserrat', sans-serif; font-weight: 800; ">
+                    Nuesto Equipo
+                </button>
+                <ul class="dropdown-menu hover-dark" aria-labelledby="dropdownMenuButton1" style="background-color: #FFB4A2;">
+                    <li><a class="dropdown-item" href="CV/cv-flor.html" >Florencia</a></li>
+                    <li><a class="dropdown-item" href="CV/cv-katu.html" >Katu</a></li>
+                    <li><a class="dropdown-item" href="CV/cv-benjamin.html" >Benjamin</a></li>
+                    <li><a class="dropdown-item" href="CV/cv-juan.html" >Juan Bautista</a></li>
+                    <li><a class="dropdown-item" href="CV/cv-maria.html" >Maria de la Paz</a></li>
+                  </ul>
+                </div>
+               </div>
+              <div class="col-2 text-end">
+                <button class="botonMenu" type="button" style="margin: 0px; height: 35px; font-family: 'Montserrat', sans-serif; font-weight: 800; text-decoration: none; background-color: #f10d0d5e">
+                  <a href="proyectos.html" style="text-decoration: none;"> Proyectos</a> 
+                </button>
+            </div>
+            <div class="col-5 text-center">
+                <button class="botonMenu" type="button" style="padding-top: 0px; height: 35px; font-family: 'Montserrat', sans-serif; font-weight: 800; text-decoration: none;">
+                 <a href="contacto.html" style="text-decoration: none;">Contactate con nosotros</a>
+                </button>
+            </div>
+        </div>
+        
+        <button id="hideOnDesktop" class="collapse-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" style="display: none; background-color: #ffcdb2a1; border-radius: 25px;">
+            <span class="navbar-toggler-icon" ><img width="20px" height="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png" style="padding-bottom: 1px;" ></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')" style="font-family: 'Montserrat', sans-serif; font-weight: 800;">
+                    <a href="Index.html" style="text-decoration: none;">Inicio</a> 
+               </button>
+              </li>
+              <li class="nav-item">
+             <div class="dropdown">
+                <button class="botonMenuMobile dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="font-family: 'Montserrat', sans-serif; font-weight: 800;"> 
+                    Nuesto Equipo
+                </button>
+                <ul class="dropdown-menu hover-dark" aria-labelledby="dropdownMenuButton1" style="background-color: #FFB4A2;">
+                  <li><a class="dropdown-item" href="CV/cv-flor.html" >Florencia</a></li>
+                  <li><a class="dropdown-item" href="CV/cv-katu.html" >Katu</a></li>
+                  <li><a class="dropdown-item" href="CV/cv-benjamin.html" >Benjamin</a></li>
+                  <li><a class="dropdown-item" href="CV/cv-juan.html" >Juan Bautista</a></li>
+                  <li><a class="dropdown-item" href="CV/cv-maria.html" >Maria de la Paz</a></li>
+                </ul>
+              </div>
+              </li>
+              <li class="nav-item">
+                <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')" style="font-family: 'Montserrat', sans-serif; font-weight: 800; background-color: #f10d0d5e">
+                   <a href="proyectos.html" style="text-decoration: none;"> Proyectos</a> 
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')" style="font-family: 'Montserrat', sans-serif; font-weight: 800;">
+                    <a href="contacto.html" style="text-decoration: none;">Contactate con nosotros</a>
+                </button>
+            </li>
+            </ul>
+        </div>   
+    </div>    
+    </nav>
+  </header>
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item mb-4 active carousel-item bg-dark">
+          <img src="img/slider-principal.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider-genube.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider-MarcAntonio.png" class="d-block w-100" alt="...">
+        </div>
+       <div class="carousel-item">
+          <img src="img/slider-alas7.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider-siglo.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slider-spinola.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <br>
+
+      <h3>Nuestros clientes ponen sus esperanzas y esfuerzos en sus proyectos, en la constante búsqueda de ser relevantes, influyentes y exitosos.
+
+        Nuestro objetivo es el mismo pero le agregamos otro objetivo muy importante, que los proyectos tengan un proceso de trabajo que también genere el placer de hacerlo.
+        
+        Ponemos toda nuestra experiencia, y conocimiento en pos de lograr proyectos con recorrido y final feliz.</h3>       
+        
+    <br>
+    <br>
+    <br>
+
+         <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+              <div class="card" style="width: 18rem;">
+                  <img src="img/card-marcantonio.png"  br br brclass="card-img-top" alt="Marca Antonio">
+                  <div class="card-body">
+                    <h5 class="card-title">Marcantonio Deportes</h5>
+                    <p class="card-text">Mercadopago, Mercadoenvio, Sincronizacion con sistema local</p>
+                    <a href="https://marcantoniodep.com.ar/" class="btn btn-primary">Visitar Sitio Web</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+              <div class="card" style="width: 18rem;">
+                  <img src="img/card-espinola.png" class="card-img-top" alt="Maxi Espinola">
+                  <div class="card-body">
+                    <h5 class="card-title">Maxi Espindola</h5>
+                    <p class="card-text">Diseño Grafico
+                      Maquetacion CSS
+                      Sistema de Gestion de Contenidos</p>
+                    <a href="http://maxiespindola.com/" class="btn btn-primary">Visitar Sitio Web</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+              <div class="card" style="width: 18rem;">
+                  <img src="img/card-siglo.png" class="card-img-top" alt="El Siglo">
+                  <div class="card-body">
+                    <h5 class="card-title">El Siglo</h5>
+                    <p class="card-text">Diseño Grafico
+                      Maquetación
+                      Responsive web
+                      One Page
+                      </p>
+                    <a href="http://elsigloweb.com/" class="btn btn-primary">Visitar Sitio Web</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+              <div class="card" style="width: 18rem;">
+                  <img src="img/card-aLas7.png" class="card-img-top" alt="A Las 7">
+                  <div class="card-body">
+                    <h5 class="card-title">A las 7</h5>
+                    <p class="card-text">Diseño Grafico
+                      Maquetacion CSS
+                      Sistema de Gestion de Contenidos
+                      Acceso para clientes
+                      Sistema de publicacion de practicas
+                      Responsive Web </p>
+                    <a href="https://www.tucumanalas7.com.ar/?refresh" class="btn btn-primary">Visitar Sitio Web</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+              <div class="card" style="width: 18rem;">
+                  <img src="img/card-sanmiguel.jpg" class="card-img-top" alt="San Miguel">
+                  <div class="card-body">
+                    <h5 class="card-title">Instituto San Miguel</h5>
+                    <p class="card-text">
+                      Diseño Web
+                      Maquetación HTML 5
+                      Programacion CMS
+                      Responsive Web</p>
+                    <a href="http://http//institutosanmiguel.edu.ar" class="btn btn-primary">Visitar Sitio Web</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
+              <div class="card" style="width: 18rem;">
+                  <img src="img/card-gnube.png" class="card-img-top" alt="Gnuebe">
+                  <div class="card-body">
+                    <h5 class="card-title">Genube</h5>
+                    <p class="card-text">Diseño
+                      Maquetación web
+                      Sistema de gestión de contenidos
+                      Ona Page
+                      Responsive web
+                      Gestor de Obras/proyectos</p>
+                    <a href="https://genube.com/" class="btn btn-primary">Visitar Sitio Web</a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+       
+
+      
+  </main>
+    <footer>
+      <div class="container-fluid" style="background-color: #FFB4A2; max-height: 30px; overflow-y: hidden;">
+       <div class="row">
+           <div class="col text-center" style="padding: 2px;">
+              <a href="#">© Grupo D 2021</a>
+           </div>
+           <div class="col-1 col-md-1  overflow-hidden col-lg-3" >
+              <a href="https://api.whatsapp.com/send?phone=0123456789"><img width="30px" height="30px" src="https://img.icons8.com/pastel-glyph/64/000000/whatsapp--v2.png"/></a>
+              <a id="footerLink" href="https://api.whatsapp.com/send?phone=0123456789">Envíanos un mensaje de WhatsApp</a>
+           </div>
+           <div class="col-1 col-md-1  overflow-hidden col-lg-3" >
+              <a href="https://github.com/Neumann-ai"><img width="30px" height="30px" src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
+              <a id="footerLink" href="https://github.com/Neumann-ai">Seguinos en GitHub</a>
+           </div>
+           <div class="col-1 col-md-1 overflow-hidden col-lg-3">
+              <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=neumannbenjamin3@gmail.com&tf=1"><img width="30px" height="30px" src="https://img.icons8.com/ios-filled/50/000000/gmail.png"/></a>
+              <a id="footerLink" href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=neumannbenjamin3@gmail.com&tf=1">GrupoD@gmail.com</a>
+           </div>
+
+       </div>
+      </div>
+
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</body>
+</html>

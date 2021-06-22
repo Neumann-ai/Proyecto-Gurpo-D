@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en" class=>
+  <head>
+    <meta charset="UTF-8">
+    <title>Grupo D - Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/559ec0a170.js"></script>
+    <link rel="stylesheet" href="https://coolors.co/ffcdb2-ffb4a2-e5989b-b5838d-6d6875">
+    <link rel="stylesheet" href="../styles-nav-footer.css">
+    <link rel="stylesheet" href="style-cv.css">
+</head>
+
+  <body >
+    <header>
+      <nav class="navbar">
+      <div class="container-fluid fixed-top shadow-lg" style="background-color: #ffcdb2a1;">
+          <a class="navbar-brand" href="" style=" height: 35px !important; margin: 0px !important; padding: 0px!important; font-family: 'Montserrat', sans-serif; font-weight: 800;">Grupo D</a>
+          <div id="hideOnMobile" class="row justify-content-end">
+              <div class="col-1 col-sm-1 col-md-1">
+                 <button class="botonMenu" type="button" style="height: 35px; font-family: 'Montserrat', sans-serif; font-weight: 800; text-decoration: none !important;">
+                  <a href="/Index.html" style="text-decoration: none;">Inicio</a> 
+                 </button>
+              </div>
+              <div class="col-4 text-end">
+               <div class="dropdown">
+                  <button class="botonMenu dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="height: 35px; font-family: 'Montserrat', sans-serif; font-weight: 800; ">
+                      Nuesto Equipo
+                  </button>
+                  <ul class="dropdown-menu hover-dark" aria-labelledby="dropdownMenuButton1" style="background-color: #FFB4A2;">
+                      <li><a class="dropdown-item" href="CV/cv-flor.html" >Florencia</a></li>
+                      <li><a class="dropdown-item" href="CV/cv-katu.html" >Katu</a></li>
+                      <li><a class="dropdown-item" href="CV/cv-benjamin.html" >Benjamin</a></li>
+                      <li><a class="dropdown-item" href="CV/cv-juan.html" >Juan Bautista</a></li>
+                      <li><a class="dropdown-item" href="CV/cv-maria.html" >Maria de la Paz</a></li>
+                    </ul>
+                  </div>
+                 </div>
+                <div class="col-2 text-end">
+                  <button class="botonMenu" type="button" style="margin: 0px; height: 35px; font-family: 'Montserrat', sans-serif; font-weight: 800; text-decoration: none;">
+                    <a href="proyectos.html" style="text-decoration: none;"> Proyectos</a> 
+                  </button>
+              </div>
+              <div class="col-5 text-center">
+                  <button class="botonMenu" type="button" style="padding-top: 0px; height: 35px; font-family: 'Montserrat', sans-serif; font-weight: 800; text-decoration: none; background-color: #f10d0d5e">
+                   <a href="contacto.html" style="text-decoration: none;">Contactate con nosotros</a>
+                  </button>
+              </div>
+          </div>
+          
+          <button id="hideOnDesktop" class="collapse-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" style="display: none; background-color: #ffcdb2a1; border-radius: 25px;">
+              <span class="navbar-toggler-icon" ><img width="20px" height="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png" style="padding-bottom: 1px;" ></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')" style="font-family: 'Montserrat', sans-serif; font-weight: 800;">
+                      <a href="/Index.html" style="text-decoration: none;">Inicio</a> 
+                 </button>
+                </li>
+                <li class="nav-item">
+               <div class="dropdown">
+                  <button class="botonMenuMobile dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" style="font-family: 'Montserrat', sans-serif; font-weight: 800;"> 
+                      Nuesto Equipo
+                  </button>
+                  <ul class="dropdown-menu hover-dark" aria-labelledby="dropdownMenuButton1" style="background-color: #FFB4A2;">
+                      <li><a class="dropdown-item" href="CV/cv-flor.html" >Florencia</a></li>
+                      <li><a class="dropdown-item" href="CV/cv-katu.html" >Katu</a></li>
+                      <li><a class="dropdown-item" href="CV/cv-benjamin.html" >Benjamin</a></li>
+                      <li><a class="dropdown-item" href="CV/cv-juan.html" >Juan Bautista</a></li>
+                      <li><a class="dropdown-item" href="CV/cv-maria.html" >Maria de la Paz</a></li>
+                  </ul>
+                </div>
+                </li>
+                <li class="nav-item">
+                  <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')" style="font-family: 'Montserrat', sans-serif; font-weight: 800;">
+                     <a href="proyectos.html" style="text-decoration: none;"> Proyectos</a> 
+                  </button>
+                </li>
+                <li class="nav-item">
+                  <button class="botonMenuMobile" type="button" onclick="nuevaFuncion('container1')" style="font-family: 'Montserrat', sans-serif; font-weight: 800; background-color: #0dbcf15e">
+                      <a href="contacto.html" style="text-decoration: none;">Contactate con nosotros</a>
+                  </button>
+              </li>
+              </ul>
+          </div>   
+      </div>    
+      </nav>
+  </header>
+  <main style="margin:2rem">
+    <h1 style="color:#FFCDB2;" class="fw-bold">Contacto</h1>
+    <form class="row g-3">
+      <div class="col-md-6 col-lg-3">
+        <label for="inputName" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <label for="inputMail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputName" placeholder="Email">
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <label for="inputPhone" class="form-label">Teléfono</label>
+        <input type="text" class="form-control" id="inputPhone" placeholder="Teléfono">
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <label for="inputCompany" class="form-label">Compañía</label>
+        <input type="text" class="form-control" id="inputCompany" placeholder="Compañía (Opcional)">
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <label for="exampleText" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleText" rows="3" placeholder="Introducir Texto"></textarea>
+      </div>  
+      <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+        <p><i class="fas fa-home"></i> Av SiempreViva 742</p>
+        <p><i class="fas fa-phone"></i> 09122018</p>
+        <p><i class="fas fa-envelope"></i> grupoD@gmail.com</p>
+      </div> 
+      <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
+        <p><i class="fab fa-facebook-f"></i> GrupoD Rolling</p>
+        <p><i class="fab fa-instagram "></i> @Grupo.D</p>
+        <p><i class="fab fa-linkedin-in"></i> Grupo-D-Rolling</p>
+
+
+
+      </div> 
+
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Acepto términos y condiciones
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+    </form>
+  </main>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+ 
+  </body>
+</html>
